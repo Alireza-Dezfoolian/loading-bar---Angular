@@ -1,0 +1,16 @@
+{
+  "name": "westpac",
+  "version": "1.0.0",
+  "description": "Angular test for westpac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alireza Dezfoolian",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "gulp-sass": "^2.3.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

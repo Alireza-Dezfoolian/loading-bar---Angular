@@ -1,4 +1,4 @@
-# loading-bar---Angular
+# loading-bar-AngularJs
 
 1- this loading bar needs http request, so basicaly needs to be run on a Server <br>
 2- use gulp-webserver to run it locally (Already included)<br>

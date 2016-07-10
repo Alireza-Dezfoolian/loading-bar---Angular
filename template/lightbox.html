@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <div class="lightbox" ng-hide="closed">
+        <div class="head">
+            <p>{{title}}</p>
+            <div ng-click="close()" class="close"></div>
+        </div>
+        <div class="progress-bar">
+            <span class="bar" ng-style="{'width': loadingPercentage+'%'}" ng-class="{'light-blue':loading, 'green':loaded}"></span>
+        </div>
+        <div ng-if="loading" class="progress-text">
+            {{'Progress ' +loadingPercentage+'%'}}
+        </div>
+        <div ng-if="loaded" class="progress-text">
+            {{'This task is ' +loadingPercentage+'%' + ' completed'}}
+            <div class="tick"></div>
+        </div>
+    </div>
+</div>
